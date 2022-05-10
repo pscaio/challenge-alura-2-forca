@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>A Forca | Jogo</title> 
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel='stylesheet' type='text/css'href='css/style.css'/>
+        <link rel='stylesheet' type='text/css'href='css/style-jogo.css'/>
+       
+    </head>
+
+    <body>
+        <main class="area-jogo">
+            <section id="menu" class="menu">
+                <a href="index.html"><button id="bt-menu0" class='home'>Home</button></a>
+                <button id="bt-menu1" class='animais'>Animais</button>
+                <button id="bt-menu2" class='objetos'>Objetos</button>
+                <button id="bt-menu3" class='nomes'>Nomes</button>
+                <button id="bt-menu4" class='paises'>Países</button>     
+                <button id="bt-menu5" class='aleatorio'>Aleatório</button>
+                <button id="bt-menu6" class='add'>Adicionar Palavra</button>
+         </section>
+
+            <section id="recomeco" class="recomeco">
+                <p class="categoria-escolhida"></p>
+                <button id="botao-recomecar"><a href="">Recomeçar</a></button>
+            </section>
+
+            <section id="" class="add-palavra">
+                <p class="msg-add-palavra"></p>
+                <button class="btn-jogar"><a>Iniciar Jogo</a></button>
+                <div class="bloco">
+                    <input class="input-palavra" type="text" name="input-palavra">
+                    <input class="submit-palavra" type="submit" name="submit">
+                </div>
+            </section>
+
+            <p class="msg-finalizacao"></p> 
+
+            <section class="imagem">
+                <img id="imagem" src="img/forca-inicial.png">
+            </section>
+
+            
+                                       
+            <section class="letras"></section>
+            
+            <section class="alfabeto">
+                <div class="a-i">
+                    <button id="botaoAlfabeto" class='botaoA'>a</button>
+                    <button id="botaoAlfabeto" class='botaoB'>b</button>
+                    <button id="botaoAlfabeto" class='botaoC'>c</button>
+                    <button id="botaoAlfabeto" class='botaoD'>d</button>
+                    <button id="botaoAlfabeto" class='botaoE'>e</button>
+                    <button id="botaoAlfabeto" class='botaoF'>f</button>
+                    <button id="botaoAlfabeto" class='botaoG'>g</button>
+                    <button id="botaoAlfabeto" class='botaoH'>h</button>
+                    <button id="botaoAlfabeto" class='botaoI'>i</button>                   
+                </div>
+
+                <div class="j-r">
+                    <button id="botaoAlfabeto" class='botaoJ'>j</button>
+                    <button id="botaoAlfabeto" class='botaoK'>k</button>
+                    <button id="botaoAlfabeto" class='botaoL'>l</button>
+                    <button id="botaoAlfabeto" class='botaoM'>m</button>
+                    <button id="botaoAlfabeto" class='botaoN'>n</button>
+                    <button id="botaoAlfabeto" class='botaoO'>o</button>
+                    <button id="botaoAlfabeto" class='botaoP'>p</button>
+                    <button id="botaoAlfabeto" class='botaoQ'>q</button>
+                    <button id="botaoAlfabeto" class='botaoR'>r</button>                     
+                </div>
+
+                <div class="s-ç">
+                    <button id="botaoAlfabeto" class='botaoS'>s</button>                                       
+                    <button id="botaoAlfabeto" class='botaoT'>t</button>               
+                    <button id="botaoAlfabeto" class='botaoU'>u</button>   
+                    <button id="botaoAlfabeto" class='botaoV'>v</button>                 
+                    <button id="botaoAlfabeto" class='botaoW'>w</button>                                        
+                    <button id="botaoAlfabeto" class='botaoX'>x</button>                    
+                    <button id="botaoAlfabeto" class='botaoY'>y</button> 
+                    <button id="botaoAlfabeto" class='botaoZ'>z</button>  
+                    <button id="botaoAlfabeto" class='botaoÇ'>ç</button>                
+                </div>
+            </section>            
+        </main>
+
+        <footer class="rodape">
+            <p class="info-rodape">Pscaio - 2022</p>
+
+            <div class="links">
+                <p class="link"><a target="blank" href="">Facebook</a></p> -
+                <p class="link"><a target="blank" href="">GitHub</a></p> -
+                <p class="link"><a target="blank" href="">Twitter</a></p> -
+                <p class="link"><a target="blank" href="">Linkedin</a></p>
+            </div>                
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/procura-letra.js"></script>
+    </body>    
+</html>

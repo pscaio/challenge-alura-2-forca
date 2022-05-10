@@ -1,0 +1,177 @@
+
+
+.area-jogo {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: relative;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.area-jogo button {
+    color: #fff;
+    border-color: #fff;
+	background: #0d0d0d;
+	cursor: pointer;
+
+}
+
+.menu {
+	display: inline-block;
+	height: auto;
+    margin: 5px 0;
+}
+
+.menu a {
+	transition: 1s all;
+	font-size: 18px;
+}
+
+.imagem {
+	padding: 10px 0;
+	position: absolute;
+    left: 10px;
+}
+
+.menu button {
+	padding: 10px 20px;
+    border: 0;
+    margin: 4px 0;
+    border-radius: 5px;
+    background: #1F4287;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.menu button:hover {
+	background: #071E3D;
+}
+
+.recomeco {
+	padding: 5px 0;
+	display: none;
+	height: 30px;
+}
+
+.recomeco p {
+    color: #21E6C1;
+	text-transform: uppercase;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+}
+
+.recomeco button {
+    padding: 10px 20px;
+    border: 0;
+    margin: 4px 0;
+    border-radius: 5px;
+    background: #1F4287;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.area-jogo .add-palavra {
+	padding: 10px 0;
+	top: 100px;
+	left: 320px;
+	display: none;
+	height: 150px;
+}
+
+.add-palavra .btn-jogar {
+	padding: 10px 20px;
+    border: 0;
+    margin: 4px 0;
+    border-radius: 5px;
+    background: #1F4287;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.recomeco button:hover {
+	background: #071E3D;
+}
+
+ .btn-jogar:hover {
+ 	background: #071E3D;	
+ }
+
+ .add-palavra div {
+ 	display: block;
+ 	display: block;
+	left: 200px;
+ }
+.btn-jogar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#botao-recomecar a {
+	text-decoration: none;
+    color: #fff;	
+}
+
+.bloco p {
+	padding-top: 20px;
+	color: #fff;
+}
+
+.advinha-palavra {
+	position: absolute;
+	left: 330px;
+	display: inline;
+	height: 240px;
+	background: #fff;
+}
+
+.advinha-palavra div {
+	display: inline;
+	width: 20px;
+	height: 30px;
+}
+
+.advinha-palavra p {
+	padding-left: 5px;
+	text-align: center;
+	display: none;
+}
+
+.area-jogo .msg-finalizacao {
+	height: auto;
+    top: 80px;
+    left: 290px;
+	display: inline;
+	padding: 10px 0;	
+}
+
+.letras {
+	display: block;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 2em;
+	position: relative;	
+    top: 110px;
+	height: 40px;
+}
+
+.area-jogo .alfabeto {
+    left: 10px;
+    top: 210px;
+	margin-top: 270px;
+	display: inline-block;
+}
+
+.alfabeto button {
+	padding: 15px 20px;
+    border: 0;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background-color: #1F4287;
+    font-size: 20px;
+    font-weight: bold;
+	text-transform: uppercase;
+	
+}
